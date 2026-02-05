@@ -49,8 +49,5 @@ class ProgressController extends Controller
         return $b * ($a + $b) + 400;
     }
 
-    public function danishHorse(): string
-    {
-        return 'hest';
-    }
+
 }
