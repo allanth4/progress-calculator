@@ -62,7 +62,7 @@ jobs:
           DB_DATABASE: testing
           DB_USERNAME: root
           DB_PASSWORD: password
-        run: php artisan test --without-tty
+        run: vendor/bin/phpunit
 
   deploy:
     runs-on: ubuntu-latest
