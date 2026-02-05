@@ -62,6 +62,7 @@ jobs:
           DB_DATABASE: testing
           DB_USERNAME: root
           DB_PASSWORD: password
+          SYMFONY_DEPRECATIONS_HELPER: disabled
         run: php artisan test
 
   deploy:
