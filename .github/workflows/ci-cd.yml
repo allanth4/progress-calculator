@@ -62,7 +62,7 @@ jobs:
           DB_DATABASE: testing
           DB_USERNAME: root
           DB_PASSWORD: password
-        run: php artisan test
+        run: php artisan test --no-interaction
 
   deploy:
     runs-on: ubuntu-latest
