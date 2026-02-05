@@ -14,4 +14,9 @@ class ProgressController extends Controller
 
 
     }
+
+    public function danishHorse(): string
+    {
+        return 'hest';
+    }
 }
