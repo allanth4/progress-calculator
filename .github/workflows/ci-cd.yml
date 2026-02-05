@@ -62,7 +62,7 @@ jobs:
           DB_DATABASE: testing
           DB_USERNAME: root
           DB_PASSWORD: password
-        run: php artisan test --fail-on-deprecation=false
+        run: php artisan test --no-fail-on-deprecation
 
   deploy:
     runs-on: ubuntu-latest
